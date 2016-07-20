@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "Adop Core Generation 5 CloudFormation Single EC2",
+  "Description": "Adop Core with Chef Generation 5 CloudFormation",
   "Mappings": {
     "RegionMap": {
       "eu-central-1": {
