@@ -249,7 +249,7 @@
                 {
                     "Ref": "ComposeRepoBranch"
                 },
-                "siebel\n",
+                "\n",
                 "chmod -R 700 /adop/adop-docker-compose\n",
                 "cd /adop/adop-docker-compose\n",
                 "sleep 10\n",
