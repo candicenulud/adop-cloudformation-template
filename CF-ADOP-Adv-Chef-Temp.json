@@ -698,6 +698,7 @@
                 "\n",
                 "docker exec -i outer-proxy chmod +x adop-adv-custom/setup_ssl.sh\n",
                 "docker exec -i outer-proxy sh adop-adv-custom/setup_ssl.sh\n",
+                "docker restart outer-proxy"
                 "curl -X PUT -H 'Content-Type:' --data-binary '{\"Status\" : \"SUCCESS\",",
                 "\"Reason\" : \"ADOP is ready\",",
                 "\"UniqueId\" : \"IDAdopCompletion\",",
