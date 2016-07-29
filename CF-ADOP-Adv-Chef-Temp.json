@@ -120,6 +120,12 @@
       "Value": {
         "Ref": "AdopUsername"  
       }
+    },
+    "AdopEmail": {
+      "Description": "The admin email used for ADOP and Chef EC2 instances.",
+      "Value": {
+        "Ref": "AdopEmail"  
+      }
     }
   },
   "Parameters": {
