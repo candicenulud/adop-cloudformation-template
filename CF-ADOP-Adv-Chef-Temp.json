@@ -133,6 +133,11 @@
       "Description": "ADOP admin account username.",
       "Type": "String"
     },
+    "AdopEmail": {
+      "Default": "",
+      "Description": "ADOP admin valid email address.",
+      "Type": "String"
+    },
     "AdopUserPassword": {
       "NoEcho": "true",
       "Description": "ADOP admin account password. Example allowed password: n0tyourusername123",
@@ -796,7 +801,11 @@
                 {
                   "Ref": "AdopUsername"
                 },
-                " Admin User admin@example.com '",
+                " Admin User ",
+                {
+                  "Ref": "AdopEmail"
+                },
+                " '",
                 {
                   "Ref": "AdopUserPassword"
                 },
