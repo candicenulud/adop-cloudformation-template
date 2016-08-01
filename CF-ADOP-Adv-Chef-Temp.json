@@ -731,6 +731,7 @@
         }
       },
       "DependsOn": [
+        "ChefEC2",
         "NatWaitCondition"
       ]
     },
